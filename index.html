@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Wist page</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="container__header">
+        <img class="logo" src="logo_beagle.png" alt="logo" />
+        <div class="text">Вист и его друзья!</div>
+        <img class="logo" src="logo_beagle.png" alt="logo" />
+      </div>
+    </div>
+    <div class="main">
+      <div class="left">
+        Привет, я собака Вист! Я очень люблю играть в разные игры. Давай сыграем
+        в города? Я называю город, например, Архангельск, а ты на последнюю
+        букву моего города, например, Коломна. <br />
+        Начнем? <br />
+        <span id="city"></span> <br />
+        Тебе на букву <span id="lastSymbol"></span>
+      </div>
+      <div class="rigth">
+        <input id="input" />
+        <p id="timer"></p>
+        <div class="container__game">
+          <div class="player1">
+            <div class="name__player1">Имя 1</div>
+            <div class="cities__player1">
+              <ul id="ulPlayer1"></ul>
+            </div>
+          </div>
+          <div class="player2">
+            <div class="name__player2">Имя 2</div>
+            <div class="cities__player2">
+              <ul id="ulPlayer2"></ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

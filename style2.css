@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.wrapper {
+  margin: 0 auto;
+}
+
+.flex-container {
+  border: 10px solid black;
+  display: flex;
+  flex-flow: row wrap;
+
+  justify-content: space-between;
+}
+.flex-element {
+  border: 2px solid red;
+  padding: 10px;
+}
